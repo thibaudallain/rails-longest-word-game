@@ -1,0 +1,7 @@
+<div class="container">
+  <h1>Result</h1>
+  <p><%= "Your overall score is : #{session['score']} in #{session['attemps']} attempts." %></p>
+  <p><%= "#{@message}" %></p>
+  <p><%= link_to "Again!", new_path, :class => "btn" %></p>
+</div>
+
